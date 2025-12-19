@@ -68,7 +68,7 @@ module "KV" {
 # }
 
 module "VM" {
-  depends_on = [ module.rg, module.PIP, module.network, module.KV ]
+  depends_on = [ module.rg, module.PIP, module.network, module.KV, module.KeyVault_Secrate ]
   source = "../../Module/VM2"
   vm = var.vm
   keyvault = var.keyvault
