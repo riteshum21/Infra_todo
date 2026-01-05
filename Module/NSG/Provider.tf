@@ -7,7 +7,7 @@ terraform {
   }
   backend "azurerm" {
     resource_group_name  = "Ritesh-Dec"
-    storage_account_name = "riteshstg1"
+    storage_account_name = "riteshstg"
     container_name       = "riteshcnt"
     key                  = "dev.tfstate"
   }
@@ -15,5 +15,5 @@ terraform {
 
 provider "azurerm" {
   features {}
-  subscription_id = "5416df71-d346-4f44-91f2-dacb0ad37467"
+  subscription_id = "86c2c7ab-0841-425a-9004-95c83c2075de"
 }

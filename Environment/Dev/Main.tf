@@ -52,12 +52,12 @@ module "KV" {
   keyvault   = var.keyvault
 }
 
-# module "KeyVault_Secrate" {
-#   depends_on = [ module.KV, module.rg ]
-#   source = "../../Module/KeyVault_Secrate"
-#   KVS = var.KVS
+module "KeyVault_Secrate" {
+  depends_on = [ module.KV, module.rg ]
+  source = "../../Module/KeyVault_Secrate"
+  KVS = var.KVS
 
-# }
+}
 
 
 # module "AKS" {

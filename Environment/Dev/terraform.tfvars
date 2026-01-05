@@ -49,7 +49,7 @@
 keyvault = {
   KV1 = {
 
-  name                        = "prskv12"
+  name                        = "prskv125"
   location                    = "japaneast"
   resource_group_name         = "ram"
   enabled_for_disk_encryption = true
@@ -182,7 +182,7 @@ rg = {
 my_sql = {
   sqldb = {
 
-    name         = "sqldb1"
+    name         = "sqldb21"
     collation    = "SQL_Latin1_General_CP1_CI_AS"
     license_type = "LicenseIncluded"
     max_size_gb  = 2
@@ -195,7 +195,7 @@ my_sql = {
 
 sql_server = {
   server1 = {
-    name                         = "rssqls1"
+    name                         = "rssqls21"
     resource_group_name          = "ram"
     location                     = "japaneast"
     version                      = "12.0"
