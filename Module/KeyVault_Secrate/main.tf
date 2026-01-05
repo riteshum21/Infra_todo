@@ -15,7 +15,7 @@ resource "azurerm_key_vault_secret" "password" {
 
 data "azurerm_key_vault" "keyvault" {
 
-  name                = "prskv12"
+  name                = "prskv125"
   resource_group_name = "ram"
 }
 
