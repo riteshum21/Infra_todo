@@ -246,7 +246,7 @@ vm = {
     nic_name             = "f-nic"
 
     size     = "Standard_D2s_v3"
-    keyvault = "prskv12"
+    keyvault = "prskv125"
 
 
     script_name       = "nginx.sh"
@@ -273,7 +273,7 @@ vm = {
     nic_name             = "b-nic"
 
     size     = "Standard_F2"
-    keyvault = "prskv12"
+    keyvault = "prskv125"
 
   script_name       = "nginx.sh"
     pw_authentication = false
